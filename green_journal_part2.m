@@ -373,7 +373,6 @@ experiment_results.bladder = metrics_b;
 %% Spatial entropy mapping
 encoders_ = {'UNet','VGG16','VGG19','DenseNet121','DenseNet169','DenseNet201','Xception','MobileNet','MobileNetV2','ResNet50','ResNet101','ResNet152','ResNet50V2','ResNet101V2','ResNet152V2','ResNeXt50','ResNeXt101','InceptionV3','InceptionResNetV2'};
 losses_ = {'categorical_crossentropy_alpha_0.5_beta_0.5','focal_alpha_0.5_beta_0.5','jaccard_alpha_0.5_beta_0.5','tversky_alpha_0.3_beta_0.7','tversky_alpha_0.5_beta_0.5','tversky_alpha_0.7_beta_0.30000000000000004'};
-losses_ = {'tversky_alpha_0.5_beta_0.5'};
 permanent_dir = '/data/jsanders/iov_study/raw_computer_predictions';
 count=1;
 for i=1:length(encoders_)
